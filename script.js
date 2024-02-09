@@ -57,13 +57,9 @@ document.addEventListener('DOMContentLoaded', function () {
 		for (i = 0; i < all_td.length; i = i + 1) {
 			all_td[i].innerText = "";
 			document.querySelector("#statement").innerText = "Wynik gry:";
-			helper = "O";
-			player = "";
 			X.style.display = "inline-block";
 			O.style.display = "inline-block";
 			czyWygrana = "";
-			wyborTrybu.innerText = "";
-			twojWybor.innerText = "";
 		}
 	})
 
