@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kołko i krzyżyk - JS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1 class="title">Gra w kółko i krzyżyk</h1>
+    <div class="inline">
+        <div id="players">
+            <h3>Jak chcesz zagrać?</h3>
+            <button id="one_player">Gra z komputerem</button>
+            <button id="two_players">Gra z inną osobą</button>
+            <div id="wyborTrybu"></div>
+        </div>
+
+        <div id="choose">
+            <h3>Wybierz O lub X:</h3>
+            <button id="X">X</button>
+            <button id="O">O</button>
+            <div id="twojWybor"></div>
+        </div>
+
+    </div>
+    <div class="inline">
+
+        <table>
+            <tr>
+                <td id="jeden"></td>
+                <td id="dwa"></td>
+                <td id="trzy"></td>
+            </tr>
+            <tr>
+                <td id="cztery"></td>
+                <td id="piec"></td>
+                <td id="szesc"></td>
+            </tr>
+            <tr>
+                <td id="siedem"></td>
+                <td id="osiem"></td>
+                <td id="dziewiec"></td>
+            </tr>
+        </table>
+
+        <div id="resetButton">
+            <button id="resetGry">Zagraj ponownie!</button>
+        </div>
+        <div id="statement">Wynik gry:</div>
+    </div>
+</body>
+
+</html>
